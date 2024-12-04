@@ -1,6 +1,7 @@
 # Padrão Commits Sebrae [![starline](https://starlines.qoo.monster/assets/gists/5dfcdf8eec66a051ecd85625518cfd13)](https://sebraepr.com.br)
 
-Veja como [a menor alteração](#tipos) na mensagem do seu commit pode fazer a diferença 
+Veja como [a menor alteração](#tipos) na mensagem do seu commit pode fazer a diferença
+<br />
 <img src="https://firebasestorage.googleapis.com/v0/b/natureatoz-5286d.appspot.com/o/images%2Freview.png?alt=media" alt="Profile Image" width="100%" style="max-width: 100%; height: 300px;">
 
 
