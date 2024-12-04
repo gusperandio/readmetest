@@ -3,10 +3,10 @@
 Veja como [a menor alteração](#examples) na mensagem do seu commit pode fazer a diferença 
 
 
-> [!IMPORTANT]
-> Have a look at **[git-conventional-commits](https://github.com/qoomon/git-conventional-commits)** , a CLI util to ensure these conventions, determine version and generate changelogs
+> [!WARNING]
+> **Todos os commits devem ser feitos em Inglês**
  
-### Default
+### Padrões
 <pre>
 <b><a href="#types">&lt;type&gt;</a></b></font>(<b><a href="#scopes">&lt;optional scope&gt;</a></b>): <b><a href="#description">&lt;description&gt;</a></b>
 <sub>empty separator line</sub>
@@ -14,10 +14,7 @@ Veja como [a menor alteração](#examples) na mensagem do seu commit pode fazer 
 <sub>empty separator line</sub>
 <b><a href="#footer">&lt;optional footer&gt;</a></b>
 </pre>
-
-## Formatos de Mensagens Commit
-<span style="color:red"><p>!</p><b> Todos os commits devem ser feitos em Inglês</b></span>
-
+ 
 ### Merge Commit
 <pre>
 Merge branch '<b>&lt;branch name&gt;</b>'
