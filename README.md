@@ -3,7 +3,7 @@
 Veja como [a menor alteração](#examples) na mensagem do seu commit pode fazer a diferença 
 
 
-> [!TIP]
+> [!IMPORTANT]
 > Have a look at **[git-conventional-commits](https://github.com/qoomon/git-conventional-commits)** , a CLI util to ensure these conventions, determine version and generate changelogs
  
 ### Default
