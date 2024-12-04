@@ -1,12 +1,13 @@
 # Padrão Commits Sebrae [![starline](https://starlines.qoo.monster/assets/gists/5dfcdf8eec66a051ecd85625518cfd13)](https://sebraepr.com.br)
 
-<img src="https://firebasestorage.googleapis.com/v0/b/natureatoz-5286d.appspot.com/o/images%2Fversionamento.png?alt=media" alt="Profile Image" width="100%" style="max-width: 100%; height: 350px;">
-
+<img src="https://firebasestorage.googleapis.com/v0/b/natureatoz-5286d.appspot.com/o/images%2Fversionamento.png?alt=media" alt="Profile Image" width="100%" style="max-width: 100%; height: 380px;">
+ 
 
 > [!WARNING]
 > **Todos os commits devem ser feitos em Inglês**
 
-Veja como [a menor alteração](#tipos) na mensagem do seu commit pode fazer a diferença 
+***Veja:*** Como [a menor alteração](#tipos) na mensagem do seu commit pode fazer a diferença 
+
 ### Padrões
 <pre>
 <b><a href="#types">&lt;type&gt;</a></b></font>(<b><a href="#scopes">&lt;optional scope&gt;</a></b>): <b><a href="#description">&lt;description&gt;</a></b>
