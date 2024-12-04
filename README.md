@@ -126,4 +126,4 @@ O `Footer` deve conter qualquer informação sobre **Breaking Changes** e també
 <br />
 
  
-<img src="https://transparencia.sebrae.com.br/static/media/slogo-azul.97b61ad7.png" alt="Profile Image" width="250" height="150">
+<img src="https://transparencia.sebrae.com.br/static/media/slogo-azul.97b61ad7.png" alt="Profile Image" width="280" height="150">
