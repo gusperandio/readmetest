@@ -3,6 +3,18 @@
 Veja como [a menor alteração](#examples) na mensagem do seu commit pode fazer a diferença 
 
 
+> [!TIP]
+> Have a look at **[git-conventional-commits](https://github.com/qoomon/git-conventional-commits)** , a CLI util to ensure these conventions, determine version and generate changelogs
+ 
+### Default
+<pre>
+<b><a href="#types">&lt;type&gt;</a></b></font>(<b><a href="#scopes">&lt;optional scope&gt;</a></b>): <b><a href="#description">&lt;description&gt;</a></b>
+<sub>empty separator line</sub>
+<b><a href="#body">&lt;optional body&gt;</a></b>
+<sub>empty separator line</sub>
+<b><a href="#footer">&lt;optional footer&gt;</a></b>
+</pre>
+
 ## Formatos de Mensagens Commit
 <span style="color:red"><p>!</p><b> Todos os commits devem ser feitos em Inglês</b></span>
 
@@ -117,4 +129,4 @@ O `Footer` deve conter qualquer informação sobre **Breaking Changes** e també
 <br />
 
  
-<img src="https://transparencia.sebrae.com.br/static/media/slogo-azul.97b61ad7.png" alt="Profile Image" width="150" height="150">
+<img src="https://transparencia.sebrae.com.br/static/media/slogo-azul.97b61ad7.png" alt="Profile Image" width="250" height="150">
