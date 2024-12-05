@@ -16,7 +16,7 @@
 A revisão de código é um processo sistemático onde desenvolvedores avaliam o código uns dos outros para garantir qualidade, manutenibilidade e aderência a padrões. Isso ajuda a identificar erros cedo, melhorar a legibilidade e compartilhar conhecimento dentro da equipe.
 
 ### Visão Geral do GOGS:
-GOGS é um serviço Git auto-hospedado, escrito em Go, que oferece uma plataforma leve e rápida para hospedagem de código, incluindo funcionalidades como pull requests e revisões de código.
+GOGS é um serviço Git auto-hospedado, que oferece uma plataforma leve e rápida para hospedagem de código, incluindo funcionalidades como pull requests e revisões de código.
 
 ## Regras para Revisão de Código
 
@@ -27,7 +27,6 @@ GOGS é um serviço Git auto-hospedado, escrito em Go, que oferece uma plataform
 2. Funcionalidade:
     * Verifique se o código atende aos requisitos especificados na tarefa ou issue.
     * Considere casos de borda e potenciais erros.
-
 
 3. Desempenho:
     * Garanta o uso de algoritmos eficientes e uso otimizado dos recursos.
@@ -54,8 +53,6 @@ GOGS é um serviço Git auto-hospedado, escrito em Go, que oferece uma plataform
     * Clique em "Criar Repositório."
       
 2. Clonar o Repositório:
-    * bash
-    * Copy code
     * git clone <url-do-repositorio>
     * Substitua <url-do-repositorio> pela URL exibida na página do repositório no GOGS.
       
