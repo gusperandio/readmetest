@@ -35,6 +35,9 @@ chore: init
 ```
 
 ### Tipos
+> [!Note]
+> **Os mesmos tipos server para criação de Branchs. Ex: "feat/NewRoute", "perf/Events"**
+
 * Alterações relevantes na API
     * `feat` Commits, que adiciona ou remove um novo recurso
     * `fix` Commits, que corrige um bug
