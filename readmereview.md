@@ -61,12 +61,7 @@ GOGS é um serviço Git auto-hospedado, escrito em Go, que oferece uma plataform
       
 3. Enviar Código por uma Branch:
     * Crie uma nova branch para a funcionalidade ou correção:
-    * bash
-    * Copy code
     * git checkout -b feature/nova-funcionalidade
-    * Faça as alterações, commit e push:
-    * bash
-    * Copy code
     * git add .
     * git commit -m "Adiciona nova funcionalidade"
     * git push origin feature/nova-funcionalidade
@@ -78,7 +73,7 @@ GOGS é um serviço Git auto-hospedado, escrito em Go, que oferece uma plataform
     * Adicione um título, descrição e comentários relevantes.
     * Envie o PR.
       
-5. **Revisar o Código**:
+5. Revisar o Código:
     * Os membros da equipe receberão uma notificação do PR.
     * Revisores devem:
     * Acessar a seção "Pull Requests" no repositório.
@@ -94,8 +89,6 @@ GOGS é um serviço Git auto-hospedado, escrito em Go, que oferece uma plataform
 7. Autor Responde ao Feedback:
     * Revise os comentários e faça as alterações necessárias.
     * Envie as atualizações para a mesma branch:
-    * bash
-    * Copy code
     * git push origin feature/nova-funcionalidade
     * Comente no PR para indicar que as mudanças foram realizadas.
       
