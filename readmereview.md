@@ -22,7 +22,7 @@ GOGS é um serviço Git auto-hospedado, que oferece uma plataforma leve e rápid
 
 1. Consistência e Estilo:
     * Siga as convenções de codificação estabelecidas (nomes de variáveis, indentação, comentários).
-    * Garanta que a formatação seja consistente (use linters ou formatadores automáticos, se possível).
+    * Garanta que a formatação seja consistente (use linters ou formatadores automáticos. Utilize o PRETTIER).
 
 2. Funcionalidade:
     * Verifique se o código atende aos requisitos especificados na tarefa ou issue.
