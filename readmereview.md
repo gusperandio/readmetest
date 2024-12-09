@@ -97,12 +97,12 @@ GOGS é um serviço Git auto-hospedado, que oferece uma plataforma leve e rápid
 9. **Ações Pós-Mesclagem**:
     * Verifique se pipelines de integração contínua (CI), se existentes, passaram com sucesso.
     * Atualize a documentação do projeto, se necessário.
-    * Comemore a contribuição bem-sucedida!
-    * Melhores Práticas:
-    * Mantenha os pull requests pequenos e focados em uma única tarefa.
-    * Defina um prazo para revisão (ex.: 24-48 horas).
-    * Incentive a comunicação aberta entre autores e revisores.
-    * Utilize ferramentas automáticas para análise estática de código sempre que possível.
-    * Esse processo estruturado utilizando o GOGS garante uma revisão de código colaborativa, eficiente e que melhora tanto a qualidade do código quanto a coesão da equipe.
+
+
+# **Melhores Práticas**
+* Mantenha os pull requests pequenos e focados em uma única tarefa.
+* Defina um prazo para revisão (ex.: 24-48 horas).
+* Incentive a comunicação aberta entre autores e revisores.
+* Utilizar ferramentas automáticas para análise estática de código sempre que possível.
  
 <img src="https://transparencia.sebrae.com.br/static/media/slogo-azul.97b61ad7.png" alt="Profile Image" width="280" height="150">
