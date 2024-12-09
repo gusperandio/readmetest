@@ -46,31 +46,31 @@ GOGS é um serviço Git auto-hospedado, que oferece uma plataforma leve e rápid
   
   
 ## Passo a Passo da Revisão de Código com GOGS:
-1. Criar um Repositório no GOGS:
+1. **Criar um Repositório no GOGS**:
     * Faça login no GOGS.
     * Vá até a seção "Novo Repositório."
     * Preencha os detalhes (nome, descrição) e escolha a visibilidade (privado/público).
     * Clique em "Criar Repositório."
       
-2. Clonar o Repositório:
+2. **Clonar o Repositório**:
     * git clone <url-do-repositorio>
     * Substitua <url-do-repositorio> pela URL exibida na página do repositório no GOGS.
       
-3. Enviar Código por uma Branch:
+3. **Enviar Código por uma Branch**:
     * Crie uma nova branch para a funcionalidade ou correção:
     * git checkout -b feature/nova-funcionalidade
     * git add .
     * git commit -m "Adiciona nova funcionalidade"
     * git push origin feature/nova-funcionalidade
       
-4. Abrir um Pull Request (PR):
+4. **Abrir um Pull Request (PR)**:
     * No GOGS, acesse o repositório.
     * Clique em "Novo Pull Request."
     * Escolha a branch base (geralmente main ou master) e compare com sua branch de funcionalidade.
     * Adicione um título, descrição e comentários relevantes.
     * Envie o PR.
       
-5. Revisar o Código:
+5. **Revisar o Código**:
     * Os membros da equipe receberão uma notificação do PR.
     * Revisores devem:
     * Acessar a seção "Pull Requests" no repositório.
@@ -78,23 +78,23 @@ GOGS é um serviço Git auto-hospedado, que oferece uma plataforma leve e rápid
     * Revisar as mudanças na aba "Arquivos Alterados" (Files Changed).
     * Deixar comentários em linhas específicas ou na seção geral.
       
-6. Fornecer Feedback:
+6. **Fornecer Feedback**:
     * Use uma linguagem clara e construtiva.
     * Sugira melhorias, destaque boas práticas e faça perguntas quando necessário.
     * Marque problemas críticos que precisam ser resolvidos antes da aprovação.
       
-7. Autor Responde ao Feedback:
+7. **Autor Responde ao Feedback**:
     * Revise os comentários e faça as alterações necessárias.
     * Envie as atualizações para a mesma branch:
     * git push origin feature/nova-funcionalidade
     * Comente no PR para indicar que as mudanças foram realizadas.
       
-8. Aprovação e Mesclagem:
+8. **Aprovação e Mesclagem**:
     * Após resolver todos os comentários, os revisores aprovam o PR clicando em "Aprovar."
     * O autor ou revisor pode mesclar o PR usando o botão "Merge" no GOGS.
     * Exclua a branch se não for mais necessária.
       
-9. Ações Pós-Mesclagem:
+9. **Ações Pós-Mesclagem**:
     * Verifique se pipelines de integração contínua (CI), se existentes, passaram com sucesso.
     * Atualize a documentação do projeto, se necessário.
     * Comemore a contribuição bem-sucedida!
