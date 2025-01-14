@@ -48,6 +48,33 @@ dev_dependencies:
 ```
 <br />
 
+## 🌌 Arrange, Act, Assert (AAA) em Testes Flutter
+O padrão Arrange, Act, Assert é uma metodologia amplamente utilizada para estruturar casos de teste de forma clara e organizada. Ele divide o teste em três fases principais:
+- **Arrange (Preparar)** : Configure as condições iniciais, variáveis ou dados necessários para o teste. Aqui você prepara tudo que será usado na execução do teste.
+Exemplo: Inicializar variáveis ou mockar dependências.
+- **Act (Agir)** : Execute a ação que será testada. É o momento de chamar a função ou método que está sendo avaliado.
+*Exemplo*: Chamar a função que realiza a soma de dois números.
+- **Assert (Verificar)** : Valide o resultado da ação realizada. Aqui, você verifica se o comportamento ou o resultado está de acordo com o esperado.
+Exemplo: Comparar o valor retornado com o valor esperado usando o método expect.
+
+### Exemplo no Flutter:
+
+```bash
+ test("Verificar soma de dois números", () {
+   // Arrange (Preparar)
+   var a = 200;
+   var b = 11;
+ 
+   // Act (Agir)
+   var soma = add(a, b);
+ 
+   // Assert (Verificar)
+   expect(soma, 211);
+ });
+```
+
+<br />
+
 ## 🧪 Testes Unitários
 - **Objetivo** : Garantir que métodos e classes individuais funcionem corretamente.
 - **Cobertura** : Lógica de negócios, validações, cálculos e outros componentes isolados.
